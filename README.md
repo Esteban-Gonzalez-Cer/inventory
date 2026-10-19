@@ -155,6 +155,8 @@ integration_test/    Comprobaciones nativas en dispositivo
 
 El repositorio exige sucursal en todas las mutaciones operativas. El controlador publica una fotografía coherente, ignora respuestas antiguas y bloquea mutaciones simultáneas. Consulta [DATABASE.md](docs/DATABASE.md) y [ACCEPTANCE.md](docs/ACCEPTANCE.md).
 
+La [documentación del desarrollo paso a paso](docs/DESARROLLO_APLICACION.md) explica la construcción por archivos, con énfasis en SQLite, transacciones, FEFO y trazabilidad, ejemplos de código y resultados de verificación.
+
 ## Verificación
 
 ```bash

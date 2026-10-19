@@ -491,6 +491,7 @@ Future<void> assignProduct(
       .toList();
   final id = await showModalBottomSheet<int>(
     context: context,
+    backgroundColor: AppColors.background,
     isScrollControlled: true,
     builder: (context) => FractionallySizedBox(
       heightFactor: .75,

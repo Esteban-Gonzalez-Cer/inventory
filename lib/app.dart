@@ -101,7 +101,7 @@ class _AlacenaAppState extends State<AlacenaApp> with WidgetsBindingObserver {
                   mainAxisSize: MainAxisSize.min,
                   children: [
                     Text(
-                      'alacena.',
+                      'Alacena',
                       style: Theme.of(context).textTheme.headlineLarge,
                     ),
                     const SizedBox(height: 20),
@@ -311,7 +311,7 @@ class _WorkspaceShellState extends State<WorkspaceShell> {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
-                      'alacena.',
+                      'Alacena',
                       style: TextStyle(
                         fontSize: 29,
                         fontWeight: FontWeight.w600,
@@ -319,7 +319,7 @@ class _WorkspaceShellState extends State<WorkspaceShell> {
                       ),
                     ),
                     Text(
-                      'TU INVENTARIO, EN ORDEN',
+                      'GESTIONA EL INVENTARIO DE TUS TIENDAS',
                       style: TextStyle(
                         fontSize: 8.5,
                         letterSpacing: 1.7,
